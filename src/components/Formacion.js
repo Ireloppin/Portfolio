@@ -13,7 +13,7 @@ const Formacion = () => {
         <div className='contenedor'>
             <div className='icono-flex'>
                 <img src={IconoFormacion} alt="formacion"></img>
-                <h2>Herrramientas</h2>
+                <h2>Herramientas</h2>
             </div>
         <div>
             <div className='iconos-tecnologia'>
