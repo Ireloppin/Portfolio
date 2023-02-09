@@ -1,5 +1,5 @@
 
-import Presentación from './components/Presentación';
+import Presentacion from './components/Presentacion';
 import Proyectos from './components/Proyectos';
 import Formacion from './components/Formacion';
 import IconoFacebook from './img/icono-facebook.svg'
@@ -28,7 +28,7 @@ function App() {
         
       </div>
     </header>
-      <Presentación />
+      <Presentacion />
       <Proyectos />
       <Formacion />
       

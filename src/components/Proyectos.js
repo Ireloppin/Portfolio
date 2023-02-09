@@ -89,7 +89,7 @@ const Proyectos = () => {
               src={Presupuestos}
               alt="presupuestos"
             ></img>
-            <h3 className="h3-blanco">Contol de Presupuestos</h3>
+            <h3 className="h3-blanco">Control de Presupuestos</h3>
             <div className="links-proyecto">
             <div className='icono-link-pro'>
                 <img src={IconoHome} alt="Ver proyecto"></img> 

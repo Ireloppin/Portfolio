@@ -18,7 +18,7 @@ const Presentación = () => {
         </div>
         <div>
         
-        <p>Desarrolladora Web por vocación. Autodidacta, autoexigente y constante. </p>
+        <p>Desarrolladora Web por vocación. Autodidacta, creativa y constante. </p>
 
         
 
