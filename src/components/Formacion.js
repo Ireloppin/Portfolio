@@ -11,6 +11,7 @@ const Formacion = () => {
   return (
     <div className='perfil'>
         <div className='contenedor'>
+        <h1 className='etiquetas'>{'<Seccion>'}</h1>
             <div className='icono-flex'>
                 <img src={IconoFormacion} alt="formacion"></img>
                 <h2>Herramientas</h2>
@@ -46,6 +47,7 @@ const Formacion = () => {
            
             </div>
         </div>
+        <h1 className='etiquetas'>{'</Seccion>'}</h1>
         </div>
     </div>
   )

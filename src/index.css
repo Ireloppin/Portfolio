@@ -31,6 +31,9 @@ h1 {
   color: var(--secundario);
   text-align: center;
 }
+h1 span{
+  color: var(--blanco)
+}
 
 
 h2 {
@@ -70,6 +73,13 @@ p {
   max-width: 80%;
   margin: 0 auto;
 }
+
+.etiquetas{
+  font-size: 2.5rem;
+  text-align: left;
+  /* color: var(--coral); */
+  font-weight: 400;
+}
 .imagen-perfil{
   border-radius: 20rem;
   max-width: 30rem;
@@ -94,13 +104,7 @@ p {
 .boton:hover{
   background-color: var(--gris);
 }
-.grid-2-columnas{
-  display: grid;
-  
-  /* grid-template-columns: repeat(2, 1fr);
-  gap:5rem;
-  align-items: center; */
-}
+
 .perfil{
   background-color: var(--gris-claro);
   padding: 1rem 0 2rem 0;
@@ -112,7 +116,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2rem 0 1rem 0;
   gap:1rem;
   flex-wrap: wrap;
 }
@@ -155,8 +158,9 @@ p {
 
 }
 .lista-proyectos{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  width: 100%;
   align-items: center;
   gap: 2rem;
 }
@@ -194,6 +198,30 @@ p {
   align-items: flex-end;
   gap:1rem;
 }
+.primer-bloque p{
+ font-weight: 700;
+}
+.segundo-bloque{
+  width: 80% ;
+  margin: 0 auto;
+}
+
+.segundo-bloque ul{
+ list-style: none;
+ padding: 0;
+}
+.segundo-bloque p{
+ list-style: none;
+ padding: 0;
+}
+.segundo-bloque p span{
+  color: var(--coral);
+  font-weight: 700;
+}
+.contenedor-perfil{
+  padding: 2rem 0;
+}
+
 
   @media (min-width: 768px){
     .imagen-proyecto{
@@ -201,20 +229,26 @@ p {
       max-width: 30rem;
     }
     .iconos-contacto{
-      max-width: 70%;
+      max-width: 50%;
       margin: 0 auto;
     }
     p{
       font-size: 2rem;
+  
     }
-    .lista-proyectos{
+    .contenedor-perfil{
+      display: flex;
       flex-direction: row;
+      gap: 3rem;
       align-items: center;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      gap: 2rem;
     }
+    .segundo-bloque p{
+      text-align: left;
+     }
+     .etiquetas{
+      font-size: 3rem;
     }
+  }
 
       
 .fadeTop {

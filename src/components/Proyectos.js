@@ -26,6 +26,7 @@ const Proyectos = () => {
   return (
     <div className="proyectos">
       <div className="contenedor">
+      <h1 className='etiquetas'>{'<Main>'}</h1>
         <div className="icono-flex">
           <img src={IconoProyectos} alt="proyectos"></img>
           <h2 className="h2-blanco">Proyectos</h2>
@@ -33,7 +34,6 @@ const Proyectos = () => {
         <div className="lista-proyectos">
           <div>
             <img
-              id="scroll-content"
               className="imagen-proyecto fadeTop scroll-content"
               src={KnitTools}
               alt="Knit-Tools"
@@ -58,7 +58,6 @@ const Proyectos = () => {
           </div>
           <div>
             <img
-              id="scroll-content"
               className="imagen-proyecto fadeTop scroll-content"
               src={CotizadorCriptos}
               alt="cotizador-criptos"
@@ -109,6 +108,7 @@ const Proyectos = () => {
             </div>
           </div>
         </div>
+        <h1 className='etiquetas'>{'</Main>'}</h1>
       </div>
     </div>
   );
