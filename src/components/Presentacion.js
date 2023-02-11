@@ -22,7 +22,7 @@ const Presentación = () => {
   return (
     <div className="perfil">
       <div className="contenedor">
-      <h1 className='etiquetas'>{'<Header>'}</h1>
+
         <div className="icono-flex">
           <img src={IconoPerfil} alt="perfil"></img>
           <h2>Perfil</h2>
@@ -57,7 +57,7 @@ const Presentación = () => {
                 Ver CV
               </a>
             </div>
-            <h1 className='etiquetas'>{'</Header>'}</h1>
+   
       </div>
     </div>
   );

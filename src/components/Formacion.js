@@ -7,11 +7,12 @@ import IconoGithub from '../img/icono-github.svg'
 import IconoCss from '../img/icono-css.svg'
 import IconoHtml from '../img/icono-html.svg'
 
+
 const Formacion = () => {
   return (
     <div className='perfil'>
         <div className='contenedor'>
-        <h1 className='etiquetas'>{'<Seccion>'}</h1>
+
             <div className='icono-flex'>
                 <img src={IconoFormacion} alt="formacion"></img>
                 <h2>Herramientas</h2>
@@ -42,12 +43,16 @@ const Formacion = () => {
               <img src={IconoHtml} alt="HTML"></img> 
                <h3 className='h3-coral'>HTML</h3>
               </div>
+              
+
+              
             
             
            
             </div>
+            
         </div>
-        <h1 className='etiquetas'>{'</Seccion>'}</h1>
+   
         </div>
     </div>
   )
