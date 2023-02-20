@@ -5,6 +5,7 @@ import IconoBraces from "../img/icono-braces.svg";
 import CotizadorCriptos from "../img/proyectos/cotizador-criptos.jpg";
 import KnitTools from "../img/proyectos/knit-tools.jpg";
 import Presupuestos from "../img/proyectos/control-de-presupuesto.jpg";
+import BuscaPelis from "../img/proyectos/buscador-pelis.jpg";
 
 const Proyectos = () => {
 
@@ -32,13 +33,15 @@ const Proyectos = () => {
           <h2 className="h2-blanco">Proyectos</h2>
         </div>
         <div className="lista-proyectos">
+         
           <div className="proyecto">
             <img
               className="imagen-proyecto fadeTop scroll-content"
               src={KnitTools}
               alt="Knit-Tools"
             ></img>
-            <h3 className="h3-blanco">Herramienta para tejedoras</h3>
+            <h3>Herramienta para tejedoras</h3>
+            <p className="proyecto-info" >React App con LocalStore para guardar los datos de tus labores, contar la vueltas tejidas y calcular puntos y vueltas.</p>
             <div className="links-proyecto">
               <div className='icono-link-pro'>
                 <img src={IconoHome} alt="Ver proyecto"></img> 
@@ -47,8 +50,9 @@ const Proyectos = () => {
                 Ver web
                 </a>
               </div>
+
               <div className='icono-link-pro'>
-                <img src={IconoBraces} alt="Ver proyecto"></img> 
+                <img src={IconoBraces} alt="Ver repo"></img> 
                 <a className="link-pro"
                 href="https://github.com/Ireloppin/Knit-Tools">
                 Ver repo
@@ -62,9 +66,10 @@ const Proyectos = () => {
               src={CotizadorCriptos}
               alt="cotizador-criptos"
             ></img>
-            <h3 className="h3-blanco">Cotizador de Criptomonedas</h3>
+            <h3>Cotizador de Criptomonedas</h3>
+            <p className="proyecto-info">React App con consulta a API de cotización de criptomonedas con opciones de monedas.</p>
             <div className="links-proyecto">
-            <div className='icono-link-pro'>
+            <div className='icono-link-pro' >
                 <img src={IconoHome} alt="Ver proyecto"></img> 
                 <a className="link-pro"
                 href="https://ireloppin.github.io/Cotizador-Criptomonedas-React/">
@@ -72,7 +77,7 @@ const Proyectos = () => {
                 </a>
               </div>
               <div className='icono-link-pro'>
-                <img src={IconoBraces} alt="Ver proyecto"></img> 
+                <img src={IconoBraces} alt="Ver repo"></img> 
                 <a className="link-pro"
                 href="https://github.com/Ireloppin/Cotizador-Criptomonedas-React">
                 Ver repo
@@ -83,12 +88,12 @@ const Proyectos = () => {
           </div>
           <div className="proyecto">
             <img
-              id="scroll-content"
               className="imagen-proyecto fadeTop scroll-content"
               src={Presupuestos}
               alt="presupuestos"
             ></img>
-            <h3 className="h3-blanco">Control de Presupuestos</h3>
+            <h3 >Control de Presupuestos</h3>
+            <p className="proyecto-info">React App con LocalStorage para establecer un presupuesto y controlarlo.</p>
             <div className="links-proyecto">
             <div className='icono-link-pro'>
                 <img src={IconoHome} alt="Ver proyecto"></img> 
@@ -98,7 +103,7 @@ const Proyectos = () => {
                 </a>
               </div>
               <div className='icono-link-pro'>
-                <img src={IconoBraces} alt="Ver proyecto"></img> 
+                <img src={IconoBraces} alt="Ver repo"></img> 
                 <a className="link-pro"
                 href="https://github.com/Ireloppin/control-presupuesto-react-vite">
                 Ver repo
@@ -107,6 +112,35 @@ const Proyectos = () => {
 
             </div>
           </div>
+
+          <div className="proyecto">
+            <img
+              id="scroll-content"
+              className="imagen-proyecto fadeTop scroll-content"
+              src={BuscaPelis}
+              alt="presupuestos"
+            ></img>
+            <h3>Buscador de películas</h3>
+            <p className="proyecto-info">React App con consulta a API de películas con posibilidad de orden alfabético</p>
+            <div className="links-proyecto">
+            <div className='icono-link-pro'>
+                <img src={IconoHome} alt="Ver proyecto"></img> 
+                <a className="link-pro"
+                href="https://ireloppin.github.io/Buscadordepelis/">
+                Ver web
+                </a>
+              </div>
+              <div className='icono-link-pro'>
+                <img src={IconoBraces} alt="Ver repo"></img> 
+                <a className="link-pro"
+                href="https://github.com/Ireloppin/Buscadordepelis">
+                Ver repo
+                </a>
+              </div>
+
+            </div>
+          </div>
+
         </div>
      
       </div>
