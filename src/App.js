@@ -31,9 +31,9 @@ function App() {
         </div>      
         <div className='iconos-contacto'>
 
-        <img src={IconoMail} alt="email"></img>
-        <img src={IconoFacebook} alt="facebook"></img>
-        <img src={IconoLinkeIn} alt="linkedin"></img>
+        <img className='icono-contacto' src={IconoMail} alt="email"></img>
+        <img className='icono-contacto' src={IconoFacebook} alt="facebook"></img>
+        <img className='icono-contacto' src={IconoLinkeIn} alt="linkedin"></img>
 
         
         </div>
@@ -51,9 +51,9 @@ function App() {
      
         
         <div className='iconos-contacto'>
-        <a href="mailto:elcorreodeirene@gmail.com"><img src={IconoMail} alt="email"></img></a>
-        <a href="https://www.facebook.com/irene.lopezpineda"> <img src={IconoFacebook} alt="facebook"></img></a>
-        <a href="https://github.com/Ireloppin"><img src={IconoLinkeIn} alt="linkedin"></img></a>
+        <a className='icono-contacto' href="mailto:elcorreodeirene@gmail.com"><img src={IconoMail} alt="email"></img></a>
+        <a className='icono-contacto'href="https://www.facebook.com/irene.lopezpineda"> <img src={IconoFacebook} alt="facebook"></img></a>
+        <a className='icono-contacto'href="https://github.com/Ireloppin"><img src={IconoLinkeIn} alt="linkedin"></img></a>
         
         </div>
 

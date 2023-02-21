@@ -129,8 +129,15 @@ p {
   flex-wrap: wrap;
   padding: 2rem 0;
 }
+.icono-contacto{
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.icono-contacto:hover{
+  transform: scale(1.4);
+}
 .footer{
-  padding: 5rem 0;
+  padding: 3rem 0 2rem 0;
 }
 .tecnologia{
   display: flex;
@@ -186,6 +193,8 @@ p {
   margin-bottom: 1rem;
   gap:1rem;
 }
+
+
 .link{
   text-decoration: none;
   color: var(--coral);
@@ -215,6 +224,11 @@ p {
   border: none;
   padding: 1rem;
   border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+.icono-link-pro:hover{
+  box-shadow:  10px 5px 10px var(--gris);
+  cursor:pointer
 }
 .primer-bloque p{
  font-weight: 700;
