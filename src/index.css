@@ -14,7 +14,8 @@ body {
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
   background-color: var(--primario);
-  margin: 0;
+  margin: 0 auto;
+
 }
 html {
   font-size: 62.5%;
@@ -206,6 +207,11 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.icono-link:hover{
+  transform:scale(1.2)
 }
 .link-pro{
   text-decoration: none;
@@ -228,7 +234,8 @@ p {
 }
 .icono-link-pro:hover{
   box-shadow:  10px 5px 10px var(--gris);
-  cursor:pointer
+  cursor:pointer;
+  transform: scale(1.1)
 }
 .primer-bloque p{
  font-weight: 700;
@@ -253,6 +260,10 @@ p {
 
 
   @media (min-width: 768px){
+    .contenedor{
+      max-width: 70%;
+      margin: 0 auto;
+    }
     .imagen-proyecto{
       width: 100%;
       max-width: 30rem;
@@ -292,6 +303,18 @@ p {
     .tecnologia{
       width: 20rem;
     }
+    .fadeRight {
+      opacity: 0;
+      transform: translate(10vh, 0vh);
+      transition: all 1s;
+    }
+    
+    .fadeLeft {
+      opacity: 0;
+      transform: translate(-10vh, 0vh);
+      transition: all 1s;
+    }
+
     
   }
 
@@ -302,17 +325,7 @@ p {
   transition: all 2s;
 }
 
-.fadeRight {
-  opacity: 0;
-  transform: translate(10vh, 0vh);
-  transition: all 1s;
-}
 
-.fadeLeft {
-  opacity: 0;
-  transform: translate(-10vh, 0vh);
-  transition: all 1s;
-}
 
 .visible {
   opacity: 1;
@@ -320,4 +333,5 @@ p {
 }
 .player{
   width: 50%;
+  
 }

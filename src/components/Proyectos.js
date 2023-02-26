@@ -6,6 +6,7 @@ import CotizadorCriptos from "../img/proyectos/cotizador-criptos.jpg";
 import KnitTools from "../img/proyectos/knit-tools.jpg";
 import Presupuestos from "../img/proyectos/control-de-presupuesto.jpg";
 import BuscaPelis from "../img/proyectos/buscador-pelis.jpg";
+import SepiaPhoto from "../img/proyectos/SepiaPhoto.jpg"
 
 const Proyectos = () => {
 
@@ -83,9 +84,62 @@ const Proyectos = () => {
                 Ver repo
                 </a>
               </div>
-
             </div>
           </div>
+
+          <div className="proyecto">
+            <img
+              className="imagen-proyecto fadeTop scroll-content"
+              src={SepiaPhoto}
+              alt="presupuestos"
+            ></img>
+            <h3 >Editor de imágenes</h3>
+            <p className="proyecto-info">App creada con Svelte y Typescript que pone en sepia la foto que le pases.</p>
+            <div className="links-proyecto">
+            <div className='icono-link-pro'>
+                <img src={IconoHome} alt="Ver proyecto"></img> 
+                <a className="link-pro"
+                href="https://ireloppin.github.io/Sepia-Photo-Hackaton/">
+                Ver web
+                </a>
+              </div>
+              <div className='icono-link-pro'>
+                <img src={IconoBraces} alt="Ver repo"></img> 
+                <a className="link-pro"
+                href="https://github.com/Ireloppin/Sepia-Photo-Hackaton">
+                Ver repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="proyecto">
+            <img
+              id="scroll-content"
+              className="imagen-proyecto fadeTop scroll-content"
+              src={BuscaPelis}
+              alt="presupuestos"
+            ></img>
+            <h3>Buscador de películas</h3>
+            <p className="proyecto-info">React App con consulta a API de películas con posibilidad de orden alfabético.</p>
+            <div className="links-proyecto">
+            <div className='icono-link-pro'>
+                <img src={IconoHome} alt="Ver proyecto"></img> 
+                <a className="link-pro"
+                href="https://ireloppin.github.io/Buscadordepelis/">
+                Ver web
+                </a>
+              </div>
+              <div className='icono-link-pro'>
+                <img src={IconoBraces} alt="Ver repo"></img> 
+                <a className="link-pro"
+                href="https://github.com/Ireloppin/Buscadordepelis">
+                Ver repo
+                </a>
+              </div>
+            </div>          
+          </div>
+
           <div className="proyecto">
             <img
               className="imagen-proyecto fadeTop scroll-content"
@@ -106,34 +160,6 @@ const Proyectos = () => {
                 <img src={IconoBraces} alt="Ver repo"></img> 
                 <a className="link-pro"
                 href="https://github.com/Ireloppin/control-presupuesto-react-vite">
-                Ver repo
-                </a>
-              </div>
-
-            </div>
-          </div>
-
-          <div className="proyecto">
-            <img
-              id="scroll-content"
-              className="imagen-proyecto fadeTop scroll-content"
-              src={BuscaPelis}
-              alt="presupuestos"
-            ></img>
-            <h3>Buscador de películas</h3>
-            <p className="proyecto-info">React App con consulta a API de películas con posibilidad de orden alfabético</p>
-            <div className="links-proyecto">
-            <div className='icono-link-pro'>
-                <img src={IconoHome} alt="Ver proyecto"></img> 
-                <a className="link-pro"
-                href="https://ireloppin.github.io/Buscadordepelis/">
-                Ver web
-                </a>
-              </div>
-              <div className='icono-link-pro'>
-                <img src={IconoBraces} alt="Ver repo"></img> 
-                <a className="link-pro"
-                href="https://github.com/Ireloppin/Buscadordepelis">
                 Ver repo
                 </a>
               </div>

@@ -43,8 +43,8 @@ const Presentación = () => {
               <p>He tenido un negocio con éxito durante 9 años, lo vendí para estudiar Programación web.</p>
               <p>Estudié Comunicación Audiovisual en la Universidad de Sevilla.</p>
               <p>He trabajado como operadora de cámara, productora y realizadora de televisión.</p>
-              <p>Tengo experiencia trabajando cara al público</p>
-              <p>Hay mucho más, ¡pero no me cabe aquí!</p>
+              <p>Tengo experiencia trabajando cara al público.</p>
+              <p>¡Más info en mi CV!</p>
               </li>
             </ul>
           </div>
