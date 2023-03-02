@@ -165,11 +165,12 @@ p {
 
 }
 .lista-proyectos{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  align-items: flex-start;
   gap: 3rem;
+  list-style: none;
+  padding: 0;
 }
 .proyecto{
   display: flex;
@@ -180,6 +181,7 @@ p {
   border-radius: 20px;
   box-shadow:  inset 10px 5px 10px var(--gris);
   height: 100%;
+  list-style: none;
 }
 .titulo-proyecto{
   color: var(--coral)
@@ -317,6 +319,13 @@ p {
       opacity: 0;
       transform: translate(-10vh, 0vh);
       transition: all 1s;
+    }
+    .lista-proyectos{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      width: 100%;
+      align-items: flex-start;
+      gap: 3rem;
     }
 
     
