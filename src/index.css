@@ -190,7 +190,7 @@ p {
 .links-proyecto {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 1rem;
   gap:1rem;
 }
@@ -218,7 +218,11 @@ p {
   color: var(--primario);
   font-size: 1.8rem;
   font-weight: 700;
+  transition: all 0.3s ease;
   
+}
+.link-pro:hover{
+  transform: scale(1.2)
 }
 .icono-link-pro{
   display: flex;
