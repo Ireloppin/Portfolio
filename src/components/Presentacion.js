@@ -3,61 +3,77 @@ import FotoPerfil from "../img/foto-perfil-ok.jpg";
 import IconoPerfil from "../img/icono-perfil.svg";
 import IconoCV from "../img/icono-file-text.svg";
 
-const Presentación = () => {
-  window.addEventListener('scroll', function()  {
-    let elements = document.getElementsByClassName('scroll-content');
+const Presentación = ({ english }) => {
+  window.addEventListener("scroll", function () {
+    let elements = document.getElementsByClassName("scroll-content");
     let screenSize = window.innerHeight;
-    
-      for(var i = 0; i < elements.length; i++) {
-        let element = elements[i];
-  
-        if(element.getBoundingClientRect().top < screenSize) {
-          element.classList.add('visible');
-        } else {
-          element.classList.remove('visible');
-        }
+
+    for (var i = 0; i < elements.length; i++) {
+      let element = elements[i];
+
+      if (element.getBoundingClientRect().top < screenSize) {
+        element.classList.add("visible");
+      } else {
+        element.classList.remove("visible");
       }
+    }
   });
 
   return (
     <div className="perfil">
       <div className="contenedor">
-
         <div className="icono-flex">
           <img src={IconoPerfil} alt="perfil"></img>
-          <h2>Perfil</h2>
+          <h2>{english ? "Profile" : "Perfil"}</h2>
         </div>
         <div className="contenedor-perfil ">
           <div className="primer-bloque fadeLeft scroll-content">
             <img className="imagen-perfil" src={FotoPerfil} alt="foto"></img>
             <p>
-              Desarrolladora Web por vocación. Autodidacta, creativa y
-              constante.{" "}
+              {english
+                ? "Web developer by vocation. Self-taught, creative and constant."
+                : "Desarrolladora Web por vocación. Autodidacta, creativa y constante."}
             </p>
-           
           </div>
           <div className="segundo-bloque fadeRight scroll-content">
-            <p><span>Datos interesantes sobre mí:</span></p>
+            <p>
+              <span>
+                {english ? "Interesting data:" : "Datos interesantes:"}
+              </span>
+            </p>
             <ul>
               <li>
-              <p>He tenido un negocio con éxito durante 9 años, lo vendí para estudiar Programación web.</p>
-              <p>Estudié Comunicación Audiovisual en la Universidad de Sevilla.</p>
-              <p>He trabajado como operadora de cámara, productora y realizadora de televisión.</p>
-              <p>Tengo experiencia trabajando cara al público.</p>
-              <p>¡Más info en mi CV!</p>
+                <p>
+                  {english
+                    ? "I have had a successful business for 9 years, I sold it for study web programming"
+                    : "He tenido un negocio con éxito durante 9 años, lo vendí para estudiar Programación web."}
+                </p>
+                <p>
+                  {english
+                    ? "I studied Audiovisual Communication at the University of Seville."
+                    : "Estudié Comunicación Audiovisual en la Universidad de Sevilla."}
+                </p>
+                <p>
+                  {english
+                    ? "I have worked as a camera operator, television director and producer."
+                    : "He trabajado como operadora de cámara, productora y realizadora de televisión."}
+                </p>
+                <p>
+                  {english
+                    ? "I have experience working with the public."
+                    : "Tengo experiencia trabajando cara al público."}
+                </p>
+                <p>{english ? "More info in my CV!" : "¡Más info en mi CV!"}</p>
               </li>
             </ul>
           </div>
-
-          
         </div>
         <div className="icono-link">
-              <img src={IconoCV} alt="CV"></img>
-              <a className="link" href="https://ireloppin.github.io/cv/">
-                Ver CV
-              </a>
-            </div>
-   
+          <img src={IconoCV} alt="CV"></img>
+          <a className="link" href="https://ireloppin.github.io/cv/">
+            {english ? "See my CV" : "Ver mi CV"}
+          </a>
+        </div>
       </div>
     </div>
   );

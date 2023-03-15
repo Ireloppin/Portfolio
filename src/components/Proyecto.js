@@ -2,8 +2,8 @@ import React from "react";
 import IconoHome from "../img/icono-home.svg";
 import IconoBraces from "../img/icono-braces.svg";
 
-const Proyecto = ({ proyecto }) => {
-  const { imagen, nombre, texto, web, repo } = proyecto;
+const Proyecto = ({ proyecto, english }) => {
+  const { imagen, nombre, texto, web, repo, name, text } = proyecto;
   return (
     <article className="articulo-proyecto">
       <header>
@@ -14,8 +14,8 @@ const Proyecto = ({ proyecto }) => {
         ></img>
       </header>
       <main>
-        <h3 className="h3-blanco">{nombre}</h3>
-        <p className="proyecto-info">{texto}</p>
+        <h3 className="h3-blanco">{english ? name : nombre}</h3>
+        <p className="proyecto-info">{english ? text : texto}</p>
       </main>
       <div className="links-proyecto">
         <a className="link-pro" href={web}>

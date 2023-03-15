@@ -5,7 +5,9 @@
             "texto":"React App con LocalStore para guardar los datos de tus labores, contar la vueltas tejidas y calcular puntos y vueltas.",
             "web": "https://ireloppin.github.io/Knit-Tools/",
             "repo": "https://github.com/Ireloppin/Knit-Tools",
-            "id": 1
+            "id": 1,
+            "name": "Knitters tool",
+            "text": "React App with LocalStore to save the data of your work, count the rows knitted and calculate stitches and rows."
         },
         {
             "nombre": "Editor de imágenes",
@@ -13,7 +15,9 @@
             "texto":"App creada con Svelte y Typescript que pone en sepia la foto que le pases.",
             "web": "https://ireloppin.github.io/Sepia-Photo-Hackaton/",
             "repo": "https://github.com/Ireloppin/Sepia-Photo-Hackaton",
-            "id": 2
+            "id": 2,
+            "name": "Imagen editor",
+            "text": "App created with Svelte and Typescript that puts the photo that you pass in sepia."
         },
         {
             "nombre": "Control de Presupuestos",
@@ -21,15 +25,19 @@
             "texto":"React App con LocalStorage para establecer un presupuesto y controlarlo.",
             "web": "https://ireloppin.github.io/control-presupuesto-react-vite/",
             "repo": "https://github.com/Ireloppin/control-presupuesto-react-vite",
-            "id": 3
+            "id": 3,
+            "name": "Budget Control",
+            "text": "React App with LocalStorage to set a budget and control it."
         },
         {
             "nombre": "Ecommerce con carrito",
             "imagen": "https://res.cloudinary.com/ireloppin/image/upload/v1677744578/bnggidtgbp0oeknzsfyu.jpg",
-            "texto":"Ecommerce con carrito de compras creado con React.",
+            "texto":"Ecommerce con carrito de compras y flitro de productos creado con React.",
             "web": "https://ireloppin.github.io/Carrito-compras-react/",
             "repo": "https://github.com/Ireloppin/Carrito-compras-react",
-            "id": 4
+            "id": 4,
+            "name": "E-commerce with cart",
+            "text": "Ecommerce with shopping cart and product filter created with React."
         },
         {
             "nombre": "Buscador de películas",
@@ -37,7 +45,9 @@
             "texto":"React App con consulta a API de películas con posibilidad de orden alfabético.",
             "web": "https://ireloppin.github.io/Buscadordepelis/",
             "repo": "https://github.com/Ireloppin/Buscadordepelis",
-            "id": 5
+            "id": 5,
+            "name": "Movie finder",
+            "text": "React App with movie API query with the possibility of alphabetical order."
         },
         {
             "nombre": "Cotizador de Criptomonedas",
@@ -45,7 +55,9 @@
             "texto":"React App con consulta a API de cotización de criptomonedas con opciones de monedas.",
             "web": "https://ireloppin.github.io/Cotizador-Criptomonedas-React/",
             "repo": "https://github.com/Ireloppin/Cotizador-Criptomonedas-React",
-            "id": 6
+            "id": 6,
+            "name": "Cryptocurrency quote",
+            "text": "React App with query to cryptocurrency quoting API with coin options."
         }
     
     
