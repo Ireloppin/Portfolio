@@ -71,6 +71,11 @@ p {
 .header{
   margin: 5rem 0 7rem 0;
 }
+.header-flex{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center   
+}
 
 .contenedor{
   max-width: 80%;
@@ -147,8 +152,18 @@ p {
   gap:0.5rem;
   flex-wrap: wrap;
   align-items: center;
-  width: 18rem;
+  justify-content: center;
+  width: 10rem;
 }
+.tecnologia img{
+  max-width: 4rem;
+  transition: transform 0.2s ease;
+}
+
+.tecnologia img:hover{
+  transform:scale(1.5)
+}
+
 
 .iconos-tecnologia{
   display: flex;
@@ -291,7 +306,7 @@ p {
 
   @media (min-width: 768px){
     .contenedor{
-      max-width: 1000px;
+      max-width: 70%;
       margin: 0 auto;
     }
     .imagen-proyecto{
@@ -319,9 +334,7 @@ p {
     .header-flex{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      align-items: center
-     
-     
+      align-items: center   
     }
     .segundo-bloque{
       width: 80% ;
@@ -330,9 +343,7 @@ p {
     .logo h1, .logo h2, .logo h3{
       text-align: left;
     }
-    .tecnologia{
-      width: 20rem;
-    }
+    
     .fadeRight {
       opacity: 0;
       transform: translate(10vh, 0vh);
@@ -354,6 +365,13 @@ p {
 
     
   }
+  @media (min-width: 1200px){
+    .contenedor{
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+  
 
       
 .fadeTop {

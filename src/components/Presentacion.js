@@ -31,8 +31,8 @@ const Presentación = ({ english }) => {
             <img className="imagen-perfil" src={FotoPerfil} alt="foto"></img>
             <p>
               {english
-                ? "Web developer by vocation. Self-taught, creative and constant."
-                : "Desarrolladora Web por vocación. Autodidacta, creativa y constante."}
+                ? "Web developer. Self-taught, creative and constant."
+                : "Desarrolladora Web. Autodidacta, creativa y constante."}
             </p>
           </div>
           <div className="segundo-bloque fadeRight scroll-content">
@@ -55,13 +55,13 @@ const Presentación = ({ english }) => {
                 </p>
                 <p>
                   {english
-                    ? "I have worked as a camera operator, television director and producer."
-                    : "He trabajado como operadora de cámara, productora y realizadora de televisión."}
+                    ? "As a television producer and director, I learned to organize and lead work teams"
+                    : "Como productora y realizadora de televisión aprendí a organizar y liderar equipos de trabajo."}
                 </p>
                 <p>
                   {english
-                    ? "I have experience working with the public."
-                    : "Tengo experiencia trabajando cara al público."}
+                    ? "I developed my social skills by working in front of the public."
+                    : "Desarrollé mis habilidades sociales trabajando cara al público."}
                 </p>
                 <p>{english ? "More info in my CV!" : "¡Más info en mi CV!"}</p>
               </li>

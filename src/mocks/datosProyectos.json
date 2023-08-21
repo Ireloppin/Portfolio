@@ -7,7 +7,7 @@
             "repo": "https://github.com/Ireloppin/Knit-Tools",
             "id": 1,
             "name": "Knitters tool",
-            "text": "React App with LocalStore to save the data of your work, count the rows knitted and calculate stitches and rows."
+            "text": "React App with LocalStore to store your sewing data, count knitted loops and calculate stitches and rows."
         },
         {
             "nombre": "Editor de imágenes",
@@ -17,7 +17,7 @@
             "repo": "https://github.com/Ireloppin/Sepia-Photo-Hackaton",
             "id": 2,
             "name": "Imagen editor",
-            "text": "App created with Svelte and Typescript that puts the photo that you pass in sepia."
+            "text": "App created with Svelte and Typescript that puts in sepia the photo you pass it."
         },
         {
             "nombre": "Control de Presupuestos",
@@ -27,7 +27,7 @@
             "repo": "https://github.com/Ireloppin/control-presupuesto-react-vite",
             "id": 3,
             "name": "Budget Control",
-            "text": "React App with LocalStorage to set a budget and control it."
+            "text": "React App with LocalStorage for budgeting and budget control."
         },
         {
             "nombre": "Ecommerce con carrito",
@@ -37,7 +37,7 @@
             "repo": "https://github.com/Ireloppin/Carrito-compras-react",
             "id": 4,
             "name": "E-commerce with cart",
-            "text": "Ecommerce with shopping cart and product filter created with React."
+            "text": "Ecommerce with shopping cart and product flow created with React."
         },
         {
             "nombre": "Buscador de películas",
@@ -57,7 +57,7 @@
             "repo": "https://github.com/Ireloppin/Cotizador-Criptomonedas-React",
             "id": 6,
             "name": "Cryptocurrency quote",
-            "text": "React App with query to cryptocurrency quoting API with coin options."
+            "text": "React App with cryptocurrency quote API query with coin options."
         }
     
     

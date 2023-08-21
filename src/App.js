@@ -1,7 +1,6 @@
 import Presentacion from "./components/Presentacion";
 import Proyectos from "./components/Proyectos";
 import Formacion from "./components/Formacion";
-import IconoFacebook from "./img/icono-facebook.svg";
 import IconoLinkeIn from "./img/icono-linkedin.svg";
 import IconoMail from "./img/icono-mail.svg";
 import IconoGithub from "./img/icono-github-coral.svg";
@@ -22,23 +21,22 @@ function App() {
           </section>
 
           <div className="header-flex">
+            <div className="logo">
+              <h1>
+                <span>Irene López Pineda</span>
+              </h1>
+              <h3 className="h3-coral">
+                {english
+                  ? "Web Developer and Audiovisual Communicator"
+                  : "Desarrolladora Web y Comunicadora audiovisual"}
+              </h3>
+            </div>
             <Player
               src="https://assets2.lottiefiles.com/packages/lf20_YXPR4EZKbT.json"
               className="player"
               loop
               autoplay
             />
-            <div className="logo">
-              <h1>
-                Deve<span>Loppin</span>
-              </h1>
-              <h2 className="h2-blanco">Irene López Pineda</h2>
-              <h3 className="h3-blanco">
-                {english
-                  ? "Web Developer and Audiovisual Communicator"
-                  : "Desarrolladora Web y Comunicadora audiovisual"}
-              </h3>
-            </div>
           </div>
           <div className="iconos-contacto">
             <a
@@ -62,18 +60,6 @@ function App() {
                 className="icono-contacto"
                 src={IconoGithub}
                 alt="github"
-              ></img>
-            </a>
-
-            <a
-              href="https://www.facebook.com/irene.lopezpineda"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="icono-contacto"
-                src={IconoFacebook}
-                alt="facebook"
               ></img>
             </a>
 
@@ -115,18 +101,6 @@ function App() {
                 className="icono-contacto"
                 src={IconoGithub}
                 alt="github"
-              ></img>
-            </a>
-
-            <a
-              href="https://www.facebook.com/irene.lopezpineda"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="icono-contacto"
-                src={IconoFacebook}
-                alt="facebook"
               ></img>
             </a>
 
