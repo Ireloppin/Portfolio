@@ -8,8 +8,11 @@ import IconoCss from "../img/icono-css.svg";
 import IconoHtml from "../img/icono-html.svg";
 import IconoBootstrap from "../img/icono-bootstrap.svg";
 import IconoFireBase from "../img/icono-firebase.svg";
-
+import IconoLitElement from "../img/icono-Lit.svg";
+import IconoDocker from "../img/icono-docker.svg";
 import IconoTailwind from "../img/icono-tailwind.svg";
+import IconoJest from "../img/icono-jest.svg";
+import IconoCypress from "../img/icono-cypress.svg";
 
 const Formacion = ({ english }) => {
   return (
@@ -28,6 +31,9 @@ const Formacion = ({ english }) => {
               <img src={IconoReact} alt="React"></img>
             </div>
             <div className="tecnologia">
+              <img src={IconoLitElement} alt="LitElement"></img>
+            </div>
+            <div className="tecnologia">
               <img src={IconoGit} alt="Git"></img>
             </div>
             <div className="tecnologia">
@@ -39,14 +45,25 @@ const Formacion = ({ english }) => {
             <div className="tecnologia">
               <img src={IconoHtml} alt="HTML"></img>
             </div>
+
+            <div className="tecnologia">
+              <img src={IconoFireBase} alt="Firebase"></img>
+            </div>
+
+            <div className="tecnologia">
+              <img src={IconoDocker} alt="Docker"></img>
+            </div>
+            <div className="tecnologia">
+              <img src={IconoJest} alt="Jest"></img>
+            </div>
+            <div className="tecnologia">
+              <img src={IconoCypress} alt="Firebase"></img>
+            </div>
             <div className="tecnologia">
               <img src={IconoBootstrap} alt="Booststrap"></img>
             </div>
             <div className="tecnologia">
               <img src={IconoTailwind} alt="Tailwind"></img>
-            </div>
-            <div className="tecnologia">
-              <img src={IconoFireBase} alt="Firebase"></img>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import IconoProyectos from "../img/icono-proyectos.svg";
-import datosProyectos from "../mocks/datosProyectos.json";
+import datosProyectos from "../Projects/datosProyectos.json";
 import Proyecto from "./Proyecto";
 
 const Proyectos = ({ english }) => {

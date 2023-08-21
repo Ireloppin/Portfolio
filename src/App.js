@@ -28,7 +28,7 @@ function App() {
               <h3 className="h3-coral">
                 {english
                   ? "Web Developer and Audiovisual Communicator"
-                  : "Desarrolladora Web y Comunicadora audiovisual"}
+                  : "Desarrolladora FrontEnd y Comunicadora audiovisual"}
               </h3>
             </div>
             <Player

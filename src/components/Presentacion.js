@@ -31,8 +31,8 @@ const Presentación = ({ english }) => {
             <img className="imagen-perfil" src={FotoPerfil} alt="foto"></img>
             <p>
               {english
-                ? "Web developer. Self-taught, creative and constant."
-                : "Desarrolladora Web. Autodidacta, creativa y constante."}
+                ? "ForntEnd developer. Self-taught, creative and constant."
+                : "Desarrolladora FrontEnd. Autodidacta, creativa y constante."}
             </p>
           </div>
           <div className="segundo-bloque fadeRight scroll-content">
@@ -45,17 +45,17 @@ const Presentación = ({ english }) => {
               <li>
                 <p>
                   {english
-                    ? "I have had a successful business for 9 years, I sold it for study web programming"
+                    ? "Selected in the VII Generation K of Kairos DS, where I have been able to start my professional experience in Front."
+                    : "Seleccionada en la VII Generación K de Kairós DS, donde he podido empezar mi experiencia profesional en Front."}
+                </p>
+                <p>
+                  {english
+                    ? "I have had a successful business for 9 years, I sold it for study web programming."
                     : "He tenido un negocio con éxito durante 9 años, lo vendí para estudiar Programación web."}
                 </p>
                 <p>
                   {english
-                    ? "I studied Audiovisual Communication at the University of Seville."
-                    : "Estudié Comunicación Audiovisual en la Universidad de Sevilla."}
-                </p>
-                <p>
-                  {english
-                    ? "As a television producer and director, I learned to organize and lead work teams"
+                    ? "As a television producer and director, I learned to organize and lead work teams."
                     : "Como productora y realizadora de televisión aprendí a organizar y liderar equipos de trabajo."}
                 </p>
                 <p>
